@@ -49,3 +49,57 @@ let State = CA;
 //using Hungarian Notation:
 var intYourAge = 29;
 */
+
+//Create a variable. Add a number and a string and display the coerced result in the browser’s console window.
+/*
+// Define a number and a string
+let number = 10;
+let string = "20";
+// Add the number and string
+let result = number + parseInt(string);
+// Display the result in the console
+console.log("The result of adding the number and string is:", result);
+*/
+
+//Create two variables.
+//For the first variable, add a Boolean and a string and display the coerced result.
+/*
+// Define a boolean and a string
+let booleanValue = true;
+let stringValue = " is a string.";
+// Add the boolean and string. Javascript automatically coerces the Boolean value to a string and performs string concatenation.
+let result = booleanValue + stringValue;
+// Display the coerced result in the console
+console.log("The coerced result of adding the boolean and string is:", result);
+*/
+
+//For the second variable, add a number and a Boolean and display the coerced result.
+// Define a Number and a Boolean
+/*
+let numberValue = 10;
+let booleanValue = true;
+// Add the Number and Boolean. JavaScript automatically coerces booleanValue to a number. true is coerced to 1.
+let result = numberValue + booleanValue;
+// Display the coerced result in the console
+console.log("The coerced result of adding the Number and Boolean is:", result);
+*/
+
+//Is the following string literal valid? If not, how would you fix it?
+/*
+let someString = 'Who once said, "Only two things are infinite, the universe and human stupidity, and I'm not sure about the former."'
+console.log(someString);
+*/
+//String is not valid. Unless we escape first by using the backslash(\) before the apostrophe('), indicating that its part of the string. We can fix by writting this as:
+/*
+let someString = 'Who once said, "Only two things are infinite, the universe and human stupidity, and I\'m not sure about the former."';
+console.log(someString);
+*/
+
+//Create a variable that produces a null value in the console window.
+/*
+let nullVariable = null;
+console.log(nullVariable);
+//Then, create a variable that produces an undefined value in the console window.
+let undefinedVariable;
+console.log(undefinedVariable)
+*/
