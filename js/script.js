@@ -103,3 +103,19 @@ console.log(nullVariable);
 let undefinedVariable;
 console.log(undefinedVariable)
 */
+
+//Use the unary typeof operator on various literals to return the following types within the console window:
+/*
+console.log(typeof "Hello");                // Output: string
+console.log(typeof 42);                     // Output: number
+console.log(typeof true);                   // Output: boolean
+console.log(typeof { key: "value" });       // Output: object
+console.log(typeof undefinedVariable);      // Output: undefined
+*/
+
+//Within an alert box, use the concatenation operator (+) to display text in the alert box that appears as follows:
+//Use 2 concatenation operators to construct this string of text. One after the text “Hello” and a second one after your name and before the comma.
+/*
+const myName = 'Carlos Serrano'
+alert('Hello ' + myName + ', welcome to the JavaScript class!')
+*/
