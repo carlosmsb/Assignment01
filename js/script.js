@@ -119,3 +119,8 @@ console.log(typeof undefinedVariable);      // Output: undefined
 const myName = 'Carlos Serrano'
 alert('Hello ' + myName + ', welcome to the JavaScript class!')
 */
+//Declare a variable called x and assign it a value of 10.
+let x = 10;
+//Declare a variable called y and assign it a value of 20.
+let y = 20;
+//Display the sum of those two numbers in the console window.
