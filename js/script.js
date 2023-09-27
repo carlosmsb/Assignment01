@@ -120,7 +120,63 @@ const myName = 'Carlos Serrano'
 alert('Hello ' + myName + ', welcome to the JavaScript class!')
 */
 //Declare a variable called x and assign it a value of 10.
+/*
 let x = 10;
 //Declare a variable called y and assign it a value of 20.
 let y = 20;
 //Display the sum of those two numbers in the console window.
+let sum = x + y;
+//console.log to display result in browser console
+console.log("The sum of x and y is =", sum);
+*/
+
+//Declare a variable called x and assign it a value of 20.
+/*
+let x = 20;
+//Add and assign 20 to that variable and display the result in the console window.
+x += 20; // Add 20 to x
+//Used the '+=' oprator to add 20;
+console.log("The result is =", x);
+//The result should be 40
+*/
+
+//Declare a variable called x and assign it a value of 20.
+/*
+let x = 20;
+//Multiply and assign 5 to that variable and display the result in the console window.
+x *= 5; // Multiply x by 5
+//Used the '*=' operator to multiply
+console.log("The result is =", x);
+//The result should be 100.
+*/
+
+//Declare a variable called x and assign it a value that equals the remainder of 20 divided by 3.
+/*
+let x = 20 % 3; // Calculate the remainder of 20 divided by 3
+//Divide and assign 1 to that variable and display the result in the console window.
+//Use the '/=' operator to divide the current value of x by 1. This step doesn't change the value
+x /= 1; // Divide x by 1
+//The result should be 2. If you got 6.66 try again.
+console.log("The result is:", x);
+*/
+
+//Using a set of Comparison and Logical operators, write an application that evaluates to true and displays the result within the console window.
+/*
+let num1 = 10;
+let num2 = 5;
+//Use the '>' (greater than) operator to compare num1 and num2,
+let isTrue = (num1 > num2)
+//Console.log the value stored in isTrue variable
+console.log("The result is:", isTrue);
+*/
+
+//Using a set of Comparison and Logical operators, write an application that evaluates to false and displays the result within the console window.
+/*
+let num = 10;
+let str = "Hello";
+//Use the 'typeof' operator to check the data type of each variable
+let isFalse = (typeof num === "string") && (typeof str === "number");
+//Use the '&&' (logical AND) operator to combine these checks
+console.log("The result is:", isFalse);
+//num is not a string, and str is not a number.
+*/
